@@ -3,7 +3,7 @@ import React from 'react';
 
 const Question = () => {
     return (
-        <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '2rem', gap: '10rem'}}>
+        <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '2rem', gap: '10rem', height: '1000px', backgroundColor: '#fefefe'}}>
             {/* 문의 남기기 텍스트 */}
             <Typography variant='h3' fontWeight={700}>문의 남기기</Typography>
 

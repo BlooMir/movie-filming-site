@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import itemData from "./data.json";
 import Button from '@mui/material/Button';
 import Header from '../components/Header';
+import { Typography } from '@mui/material';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -26,11 +27,12 @@ const ProductDetail = () => {
         />
       </div>
       <div style={{ flex: 1, padding: '20px' }}>
-        <h1>{product.title}</h1>
-        <h3>{product.Money}</h3>
-        <h3>{product.description}</h3>
-        <Button variant="contained" onClick={togglePopup1} style={{ margin: '10px' }}>장바구니</Button>
-        <Button variant="contained" onClick={togglePopup2} style={{ margin: '10px' }}>구매</Button>
+        <Typography variant='h3' fontWeight='700'>{product.title}</Typography>
+        <Typography variant='h4'>{product.Money}</Typography>
+        <Typography variant='h10'>{product.description}</Typography>
+        <br/>
+        <Button variant="contained" onClick={togglePopup1}>장바구니</Button>
+        <Button variant="contained" onClick={togglePopup2}>구매</Button>
       </div>
     
 

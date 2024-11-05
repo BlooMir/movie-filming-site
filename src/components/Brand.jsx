@@ -1,10 +1,10 @@
 import { Box } from '@mui/material';
 import React from 'react';
-import LolemIpsuim from '../components/LolemIpsuim';
+import LolemIpsuim from './LolemIpsuim';
 
 const Brand = () => {
     return (
-        <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '800px', gap: '5rem'}}>
+        <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '800px', gap: '10rem'}}>
             <LolemIpsuim/>
             <LolemIpsuim/>
         </Box>

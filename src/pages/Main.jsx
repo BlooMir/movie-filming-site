@@ -1,12 +1,14 @@
 import { Box } from '@mui/material';
 import React from 'react';
+import Brand from '../components/Brand';
 
 const Main = () => {
     return (
-        <Box sx={{backgroundColor: '#efefef', display: 'flex', justifyContent: 'center'}}>
-            <Box sx={{width: '100vw', height: '40rem', display: 'flex', justifyContent: 'center'}}>
-                <img alt='이미지 아무거1나' src='/' style={{objectFit: 'fill'}}/>
+        <Box sx={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
+            <Box sx={{width: '100vw', height: '40vh', display: 'flex', justifyContent: 'center', backgroundColor: '#efefef'}}>
+                <img alt='main img' src='/ampm_Lobby.png' style={{objectFit: 'cover'}}/>
             </Box>
+            <Brand/>
         </Box>
     );
 };
