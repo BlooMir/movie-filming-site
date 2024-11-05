@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import itemData from "./data.json";
 import Button from '@mui/material/Button';
+import Header from '../components/Header';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -15,8 +16,6 @@ const ProductDetail = () => {
 
   return (
     <div>
-   
-      <Header/>
     
     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
           <div style={{ flex: 1, textAlign: 'center' }}>
