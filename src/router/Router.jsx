@@ -5,6 +5,7 @@ import Brand from '../pages/Brand';
 import Product from '../pages/Product';
 import Question from '../pages/Question';
 import Header from '../components/Header';
+import ProductDetail from '../pages/ProductDetail';
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
                 <Route path="/" element={<Main />} />
                 <Route path="/brand" element={<Brand />} />
                 <Route path="/product" element={<Product />} />
+                <Route path="/product/:id" element={<ProductDetail/>} />
                 <Route path="/inquiry" element={<Question />} />
             </Routes>
         </BrowserRouter>
