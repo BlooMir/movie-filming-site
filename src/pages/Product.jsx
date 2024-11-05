@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import itemData from "./data.json";
+import { Typography } from '@mui/material';
 
 const Product = () => {
   return (
@@ -24,8 +25,8 @@ const Product = () => {
           }
         `}
       </style>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', minHeight: '100vh' }}>
-        <h1>상품 목록</h1>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', minHeight: '100vh', paddingTop: '4rem',backgroundColor: '#efefef'}}>
+        <Typography variant='h2' fontWeight='700'>상품 목록</Typography>
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
           {itemData.map((item) => (
             <ProductCard key={item.id} item={item} />
@@ -44,7 +45,7 @@ const ProductCard = ({ item }) => {
   };
 
   return (
-    <div style={{ margin: '20px', border: '1px solid #ccc', padding: '10px', textAlign: 'center' }}>
+    <div style={{ margin: '20px', border: '1px solid #ccc', textAlign: 'center', borderRadius: '1rem', backgroundColor: 'white', boxShadow: '5px 5px 10px, #333'}}>
       <Link to={`/product/${item.id}`}>
         <div style={{ position: 'relative', width: '600px', height: '300px' }}>
           {loading && (
@@ -55,7 +56,7 @@ const ProductCard = ({ item }) => {
           <img 
             src={item.img} 
             alt={item.title} 
-            style={{ display: loading ? 'none' : 'block', width: '100%', height: '100%', objectFit: 'cover' }} 
+            style={{ display: loading ? 'none' : 'block', width: '100%', height: '100%', objectFit: 'cover', borderRadius: '1rem 1rem 0 0'}} 
             onLoad={handleImageLoad} 
           />
         </div>
@@ -73,6 +74,7 @@ const titleStyle = {
 
 const subtitleStyle = {
   fontSize: '20px',
+  marginBottom: '1rem'
 };
 
 export default Product;

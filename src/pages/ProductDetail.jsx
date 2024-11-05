@@ -3,8 +3,7 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import itemData from "./data.json";
 import Button from '@mui/material/Button';
-import Header from '../components/Header';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -16,23 +15,26 @@ const ProductDetail = () => {
   const togglePopup2 = () => setIsPopup2Open(!isPopup2Open);
 
   return (
-    <div>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
     
-    <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
-          <div style={{ flex: 1, textAlign: 'center' }}>
-        <img 
-          src={product.img} 
-          alt={product.title} 
-          style={{ width: '100%', maxHeight: '500px', objectFit: 'cover' }} 
-        />
-      </div>
-      <div style={{ flex: 1, padding: '20px' }}>
+    <div style={{ width: '75vw', display: 'flex', justifyContent: 'center', padding: '20px', gap: '1rem' }}>
+        <div style={{ flex: 1, textAlign: 'center', gap: '2rem'}}>
+          <img 
+            src={product.img} 
+            alt={product.title} 
+            style={{ width: '100%', maxHeight: '500px', objectFit: 'cover', borderRadius: '1rem'}} 
+          />
+        </div>
+      <div style={{ flex: 1, padding: '20px'}}>
         <Typography variant='h3' fontWeight='700'>{product.title}</Typography>
         <Typography variant='h4'>{product.Money}</Typography>
         <Typography variant='h10'>{product.description}</Typography>
         <br/>
-        <Button variant="contained" onClick={togglePopup1}>장바구니</Button>
-        <Button variant="contained" onClick={togglePopup2}>구매</Button>
+        <div style={{margin: '1rem 1rem'}}/>
+        <Box display='flex' gap='1rem'>
+          <Button variant="contained" onClick={togglePopup1}>장바구니</Button>
+          <Button variant="contained" onClick={togglePopup2}>구매</Button>
+        </Box>
       </div>
     
 
