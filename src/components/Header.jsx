@@ -15,7 +15,7 @@ const Header = () => {
                 <Link to='/inquiry'>문의 남기기</Link>
             </Box>
             <span>
-                <img src='/instar.jpg' alt='인스타 로고'style={{width: '300px'}}/>
+                <img src='/Instargram.jpg' alt='인스타 로고'style={{width: '300px'}}/>
                 <img src='/yt_icon_rgb.png' alt='유튜브 로고' style={{width: '3rem'}}/>
             </span>
         </header>
