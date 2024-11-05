@@ -26,9 +26,9 @@ const ProductDetail = () => {
         />
       </div>
       <div style={{ flex: 1, padding: '20px' }}>
-        <h1>{product.title}</h1>
-        <h3>{product.Money}</h3>
-        <h3>{product.description}</h3>
+      <p style={titleStyle}>{product.title}</p>
+          <p style={subtitleStyle}>{product.Money}</p>
+          <p style={subtitleStyle}>{product.description}{product.description}</p>
         <Button variant="contained" onClick={togglePopup1} style={{ margin: '10px' }}>장바구니</Button>
         <Button variant="contained" onClick={togglePopup2} style={{ margin: '10px' }}>구매</Button>
       </div>
@@ -77,5 +77,17 @@ const popupContentStyle = {
   boxShadow: '0 5px 15px rgba(0, 0, 0, 0.3)',
   textAlign: 'center',
 };
+
+const titleStyle = {
+  fontSize: '40px',
+  fontWeight: 'bold',
+  margin : '30px 0'
+};
+
+const subtitleStyle = {
+  fontSize: '20px',
+  margin: '30px 0',
+};
+
 
 export default ProductDetail;
