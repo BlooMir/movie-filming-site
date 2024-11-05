@@ -80,4 +80,16 @@ const popupContentStyle = {
   textAlign: 'center',
 };
 
+const titleStyle = {
+  fontSize: '40px',
+  fontWeight: 'bold',
+  margin : '30px 0'
+};
+
+const subtitleStyle = {
+  fontSize: '20px',
+  margin: '30px 0',
+};
+
+
 export default ProductDetail;
