@@ -1,4 +1,4 @@
-import { Box, FormControl,TextField, Typography } from '@mui/material';
+import { Box, Button, FormControl,TextField, Typography } from '@mui/material';
 import React from 'react';
 
 const Question = () => {
@@ -24,7 +24,10 @@ const Question = () => {
                     rows={6}
                     fullWidth
                 />
+            <Button variant='contained'>문의 전송</Button>
             </FormControl>
+
+            
         </Box>
     );
 };
