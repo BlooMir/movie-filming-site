@@ -10,14 +10,14 @@ const Header = () => {
                 <img src='/ampm_logo.png' alt='로고'style={{width: '300px'}}/>
             </span>
             <Box sx={{ display: 'flex', gap: '4rem', fontWeight: '700', fontSize: '1.5rem'}}>
-                <Link to='/brand'>브랜드</Link>
-                <Link to='/product'>제품</Link>
-                <Link to='/inquiry'>문의 남기기</Link>
+                <Link to='/brand' style={{textDecoration: 'none', color: '#000'}}>브랜드</Link>
+                <Link to='/product' style={{textDecoration: 'none'}}>제품</Link>
+                <Link to='/inquiry' style={{textDecoration: 'none'}}>문의 남기기</Link>
             </Box>
-            <span>
-                <img src='/Instargram.jpg' alt='인스타 로고'style={{width: '300px'}}/>
+            <Box>
+                <img src='/Instargram.png' alt='인스타 로고'style={{width: '2rem'}}/>
                 <img src='/yt_icon_rgb.png' alt='유튜브 로고' style={{width: '3rem'}}/>
-            </span>
+            </Box>
         </header>
     );
 };
