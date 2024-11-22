@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Main from '../pages/Main';
 import Product from '../pages/Product';
 import Question from '../pages/Question';
@@ -9,7 +9,7 @@ import InqueryList from '../pages/InqueryList';
 
 const Router = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Header/>
             <Routes>
                 <Route path="/" element={<Main />} />
@@ -18,7 +18,7 @@ const Router = () => {
                 <Route path="/inquiry" element={<Question />} />
                 <Route path="/inquirylist" element={<InqueryList />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 
