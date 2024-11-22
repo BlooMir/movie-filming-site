@@ -12,9 +12,10 @@ const Header = () => {
                         <img src='/ampm_logo.png' alt='로고'style={{width: '300px'}}/>
                     </Link>
                 </span>
-                <Box sx={{ display: 'flex', gap: '12rem', fontWeight: '700', fontSize: '1.5rem', width: '20vw'}}>
+                <Box sx={{ display: 'flex', gap: '12rem', fontWeight: '700', fontSize: '1.5rem'}}>
                     <Link to='/product' style={{textDecoration: 'none', color:'black'}}>제품</Link>
                     <Link to='/inquiry' style={{textDecoration: 'none', color:'black'}}>문의 남기기</Link>
+                    <Link to='/inquirylist' style={{textDecoration: 'none', color:'black'}}>문의 내역 확인</Link>
                 </Box>
                 <Box display='flex'> 
                     <Box display='flex' justifyContent='center' alignItems='center' flexDirection='column' padding='1rem'>

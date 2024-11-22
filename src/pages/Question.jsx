@@ -53,18 +53,33 @@ const Question = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
+    
+        // 유효성 검사
         if (!isValid) {
             alert("최소 하나의 매체를 선택해야 합니다.");
-            return
+            return;
         }
-
-        // localStorage에 폼 데이터 저장
-        localStorage.setItem("formData", JSON.stringify(formData));
+    
+        // 기존 저장된 데이터 배열 가져오기
+        const existingData = JSON.parse(localStorage.getItem("formDataList")) || [];
+    
+        // 새로운 데이터에 고유 ID 추가
+        const newEntry = {
+            id: existingData.length + 1, // 현재 배열 길이 + 1
+            ...formData,
+        };
+    
+        // 기존 데이터에 새로운 데이터 추가
+        const updatedData = [...existingData, newEntry];
+    
+        // localStorage에 업데이트된 데이터 저장
+        localStorage.setItem("formDataList", JSON.stringify(updatedData));
+    
+        // 알림 및 페이지 이동
         alert("문의 신청이 완료되었습니다.");
-        // /inquerylist로 이동
         navigate("/inquirylist");
     };
+    
 
     return (
         <Box
