@@ -11,8 +11,8 @@ import {
     Paper,
     Button,
     Modal,
-} from "@mui/material";
-import { dummyData } from "../constants/dummy"; // 기본 데이터 가져오기
+} from "@mui/material"; 
+import dummyData from "../constants/dummy.json"; // 기본 데이터 가져오기
 
 const InqueryList = () => {
     const [formDataList, setFormDataList] = useState([]);
@@ -41,6 +41,12 @@ const InqueryList = () => {
         }
     };
 
+    const handleReset = () => {
+        localStorage.removeItem("formDataList"); // 로컬스토리지에서 데이터 삭제
+        window.location.reload(); // 새로고침
+    };
+    
+
     const handleMoreClick = (details) => {
         setSelectedDetail(details);
         setModalOpen(true);
@@ -62,15 +68,23 @@ const InqueryList = () => {
     return (
         <Box sx={{ padding: "4rem", display: "flex", justifyContent: "center" }}>
             <Box sx={{ width: "80vw" }}>
-                <Typography
-                    variant="h4"
-                    fontWeight={900}
-                    marginBottom="2rem"
-                    marginTop="2rem"
-                    fontFamily="Noto Sans KR"
-                >
-                    문의 내역
-                </Typography>
+                <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+                    <Typography
+                        variant="h4"
+                        fontWeight={900}
+                        marginBottom="2rem"
+                        marginTop="2rem"
+                        fontFamily="Noto Sans KR"
+                    >
+                        문의 내역
+                    </Typography>
+                    <Button 
+                        variant="contained"
+                        color="warning"
+                        onClick={handleReset}
+                        sx={{height: '3rem'}}
+                    >데이터 초기화</Button>
+                </Box>
 
                 <TableContainer component={Paper} elevation={3}>
                     <Table>

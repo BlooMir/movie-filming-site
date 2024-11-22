@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "name": "김영희",
+        "phoneNumber": "010-1234-0001",
+        "address": "제주특별자치도 수성구 봉명동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": false,
+            "banner": false,
+            "app": false,
+            "none": true
+        },
+        "details": "이전 광고 성과 분석 요청드립니다."
+    },
+    {
+        "id": 2,
+        "name": "최유리",
+        "phoneNumber": "010-1234-0002",
+        "address": "광주광역시 중구 범어동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": true,
+            "meta": false,
+            "banner": false,
+            "app": false,
+            "none": false
+        },
+        "details": "전환율 최적화 관련 문의드립니다."
+    },
+    {
+        "id": 3,
+        "name": "장민호",
+        "phoneNumber": "010-1234-0003",
+        "address": "부산광역시 북구 우동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": false,
+            "banner": true,
+            "app": true,
+            "none": true
+        },
+        "details": "광고 효율 개선 방안 문의드립니다."
+    },
+    {
+        "id": 4,
+        "name": "홍길동",
+        "phoneNumber": "010-1234-0004",
+        "address": "대전광역시 남구 일산로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": false,
+            "banner": true,
+            "app": false,
+            "none": false
+        },
+        "details": "배너 광고 효율 측정 요청드립니다."
+    },
+    {
+        "id": 5,
+        "name": "오민수",
+        "phoneNumber": "010-1234-0005",
+        "address": "강원도 동구 중앙대로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": false,
+            "banner": true,
+            "app": false,
+            "none": false
+        },
+        "details": "신규 광고 제안 요청드립니다."
+    },
+    {
+        "id": 6,
+        "name": "오민수",
+        "phoneNumber": "010-1234-0006",
+        "address": "서울특별시 서구 삼산로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": false
+        },
+        "details": "광고 관련 문의드립니다."
+    },
+    {
+        "id": 7,
+        "name": "박미진",
+        "phoneNumber": "010-1234-0007",
+        "address": "제주특별자치도 강남구 우동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": false,
+            "none": true
+        },
+        "details": "전환율 최적화 관련 문의드립니다."
+    },
+    {
+        "id": 8,
+        "name": "오민수",
+        "phoneNumber": "010-1234-0008",
+        "address": "제주특별자치도 유성구 삼산로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": true,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": false
+        },
+        "details": "이전 광고 성과 분석 요청드립니다."
+    },
+    {
+        "id": 9,
+        "name": "오민수",
+        "phoneNumber": "010-1234-0009",
+        "address": "울산광역시 남동구 일산로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": true,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": true
+        },
+        "details": "다양한 매체 활용 방안 상담 요청드립니다."
+    },
+    {
+        "id": 10,
+        "name": "강동원",
+        "phoneNumber": "010-1234-0010",
+        "address": "강원도 남동구 봉명동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": false
+        },
+        "details": "전환율 최적화 관련 문의드립니다."
+    },
+    {
+        "id": 11,
+        "name": "김영희",
+        "phoneNumber": "010-1234-0011",
+        "address": "부산광역시 남구 중앙대로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": true,
+            "banner": true,
+            "app": false,
+            "none": false
+        },
+        "details": "디지털 광고 상담 요청드립니다."
+    },
+    {
+        "id": 12,
+        "name": "정하늘",
+        "phoneNumber": "010-1234-0012",
+        "address": "대전광역시 수성구 삼산로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": true,
+            "meta": false,
+            "banner": false,
+            "app": true,
+            "none": true
+        },
+        "details": "신규 마케팅 전략 컨설팅 원합니다."
+    },
+    {
+        "id": 13,
+        "name": "장민호",
+        "phoneNumber": "010-1234-0013",
+        "address": "울산광역시 서구 삼산로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": false,
+            "google": true,
+            "meta": false,
+            "banner": true,
+            "app": false,
+            "none": true
+        },
+        "details": "광고 관련 문의드립니다."
+    },
+    {
+        "id": 14,
+        "name": "홍길동",
+        "phoneNumber": "010-1234-0014",
+        "address": "부산광역시 동구 고잔로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": true,
+            "none": false
+        },
+        "details": "광고 관련 문의드립니다."
+    },
+    {
+        "id": 15,
+        "name": "이철수",
+        "phoneNumber": "010-1234-0015",
+        "address": "울산광역시 강남구 논현동",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": true,
+            "banner": true,
+            "app": false,
+            "none": true
+        },
+        "details": "이전 광고 성과 분석 요청드립니다."
+    },
+    {
+        "id": 16,
+        "name": "박미진",
+        "phoneNumber": "010-1234-0016",
+        "address": "강원도 서구 범어동",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": false
+        },
+        "details": "디지털 광고 상담 요청드립니다."
+    },
+    {
+        "id": 17,
+        "name": "강동원",
+        "phoneNumber": "010-1234-0017",
+        "address": "대구광역시 수성구 테헤란로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": true,
+            "banner": true,
+            "app": false,
+            "none": true
+        },
+        "details": "전환율 최적화 관련 문의드립니다."
+    },
+    {
+        "id": 18,
+        "name": "홍길동",
+        "phoneNumber": "010-1234-0018",
+        "address": "제주특별자치도 유성구 일산로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": false,
+            "none": false
+        },
+        "details": "신규 마케팅 전략 컨설팅 원합니다."
+    },
+    {
+        "id": 19,
+        "name": "이철수",
+        "phoneNumber": "010-1234-0019",
+        "address": "부산광역시 중구 테헤란로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": false,
+            "none": true
+        },
+        "details": "광고 관련 문의드립니다."
+    },
+    {
+        "id": 20,
+        "name": "최유리",
+        "phoneNumber": "010-1234-0020",
+        "address": "경기도 남구 테헤란로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": false,
+            "google": true,
+            "meta": true,
+            "banner": false,
+            "app": false,
+            "none": false
+        },
+        "details": "광고 효율 개선 방안 문의드립니다."
+    },
+    {
+        "id": 21,
+        "name": "박미진",
+        "phoneNumber": "010-1234-0021",
+        "address": "대전광역시 중구 우동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": false,
+            "banner": false,
+            "app": false,
+            "none": true
+        },
+        "details": "배너 광고 효율 측정 요청드립니다."
+    },
+    {
+        "id": 22,
+        "name": "오민수",
+        "phoneNumber": "010-1234-0022",
+        "address": "경기도 중구 논현동",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": false,
+            "none": true
+        },
+        "details": "광고 효율 개선 방안 문의드립니다."
+    },
+    {
+        "id": 23,
+        "name": "정하늘",
+        "phoneNumber": "010-1234-0023",
+        "address": "울산광역시 수성구 범어동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": true,
+            "banner": false,
+            "app": true,
+            "none": true
+        },
+        "details": "광고 관련 문의드립니다."
+    },
+    {
+        "id": 24,
+        "name": "한예슬",
+        "phoneNumber": "010-1234-0024",
+        "address": "울산광역시 강남구 상무대로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": false
+        },
+        "details": "신규 광고 제안 요청드립니다."
+    },
+    {
+        "id": 25,
+        "name": "최유리",
+        "phoneNumber": "010-1234-0025",
+        "address": "제주특별자치도 서구 범어동",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": true,
+            "none": true
+        },
+        "details": "신규 광고 제안 요청드립니다."
+    },
+    {
+        "id": 26,
+        "name": "이철수",
+        "phoneNumber": "010-1234-0026",
+        "address": "서울특별시 유성구 테헤란로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": true,
+            "banner": false,
+            "app": true,
+            "none": true
+        },
+        "details": "광고 관련 문의드립니다."
+    },
+    {
+        "id": 27,
+        "name": "장민호",
+        "phoneNumber": "010-1234-0027",
+        "address": "인천광역시 서구 삼산로",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": true,
+            "app": false,
+            "none": false
+        },
+        "details": "광고 효율 개선 방안 문의드립니다."
+    },
+    {
+        "id": 28,
+        "name": "박미진",
+        "phoneNumber": "010-1234-0028",
+        "address": "부산광역시 서구 상무대로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": true,
+            "app": true,
+            "none": false
+        },
+        "details": "타겟팅 세그먼트 분석과 추천 바랍니다."
+    },
+    {
+        "id": 29,
+        "name": "이철수",
+        "phoneNumber": "010-1234-0029",
+        "address": "서울특별시 북구 논현동",
+        "adExperience": "yes",
+        "mediaChannels": {
+            "naver": true,
+            "google": true,
+            "meta": false,
+            "banner": true,
+            "app": false,
+            "none": false
+        },
+        "details": "배너 광고 효율 측정 요청드립니다."
+    },
+    {
+        "id": 30,
+        "name": "홍길동",
+        "phoneNumber": "010-1234-0030",
+        "address": "광주광역시 수성구 삼산로",
+        "adExperience": "no",
+        "mediaChannels": {
+            "naver": false,
+            "google": false,
+            "meta": true,
+            "banner": false,
+            "app": true,
+            "none": false
+        },
+        "details": "신규 마케팅 전략 컨설팅 원합니다."
+    }
+]
