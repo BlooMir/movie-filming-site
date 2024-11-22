@@ -277,15 +277,15 @@ const InqueryList = () => {
                                             },
                                         }}
                                     >
-                                        {entry.details.length > 30 ? (
+                                        {entry.details.length > 20 ? (
                                             <>
-                                                {entry.details.substring(0, 30)}...
+                                                {entry.details.substring(0, 10)}...
                                                 <Button
-                                                    variant="text"
+                                                    variant="outlined"
                                                     size="small"
                                                     sx={{
                                                         padding: 0,
-                                                        color: "#007BFF",
+                                                        marginLeft: '1rem',
                                                         fontSize: "0.8rem",
                                                     }}
                                                     onClick={() => handleMoreClick(entry.details)}
